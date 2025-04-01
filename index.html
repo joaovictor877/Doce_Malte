@@ -11,28 +11,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <!--fim google fonts-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="README.md">
     <!--foto do site-->
-    <link rel="icon" href="images/logo.jpeg">
+    <link rel="icon" href="/">
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
+          <nav class="nav">
             <a href="/" class="logo">Doce Malte</a>
-          <button class="hamburger"></button>
+              <button class="hamburger"></button>
           <ul class="nav-list">
-            <li><a href="#">Sobre</a></li>
+            <li><a href="#home">Sobre</a></li>
             <li><a href="#">Projeto</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Grupo</a></li>
             <li><a href="#">Imagens</a></li>
             <li><a href="#">Artigo</a></li>
           </ul>
         </nav>
     </header>
-    <h1>Diário de Bordo</h1>
-    <button class="button" type="button" onclick="window.location.href='diariobordo.html'">Abrir link</button>
-    <main class="hero"></main>
+    <main class="espacamento">
+      <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>Bem-vindo ao Site da Doce Malte</h1>
+                    <p>Objetivo desse projeto e produzir uma cerveja Artesenal, 
+                      tendo como finalidade o entendimento da função que um engenheiro tem em um projeto e como esses projetos se desenvolvem.</p>
+                    <div class="joa-contato">
+                        <a href="projetos.html">
+                            <button class="btn btn-primary">Projetos</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <section id="projeto">
+          <h2 class="espaco"></h1>
+          <p>Projeto Doce Malte</p>
+      </section>
+    </section>
 </body>
 <script src="script.js"></script>
+</main>
+<footer>
+  <p>&copy; 2025 Grupo Cerveja - Doce Malte. Todos os direitos reservados.</p>
+</footer>
 </html>
